@@ -17,7 +17,7 @@ Obviously first run your Atomic test procedures to generate multiple JSON files 
 
 ## Credits
 
-https://github.com/SecurityRiskAdvisors/invoke-atomic-attire-logger\
-https://github.com/SecurityRiskAdvisors/VECTR\
-https://github.com/redcanaryco/atomic-red-team/tree/master/atomics\
-https://github.com/redcanaryco/invoke-atomicredteam/
+* https://github.com/SecurityRiskAdvisors/invoke-atomic-attire-logger
+* https://github.com/SecurityRiskAdvisors/VECTR
+* https://github.com/redcanaryco/atomic-red-team/tree/master/atomics
+* https://github.com/redcanaryco/invoke-atomicredteam/
