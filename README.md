@@ -6,13 +6,22 @@ More information about the ATTiRe logging format can be found here: https://gith
 
 This has been created to cover the missing feature to upload multiple test cases to VECTR as described in this issue: https://github.com/SecurityRiskAdvisors/VECTR/issues/235.
 
-## Usage
+## Usage to merge multiple JSON files into 1 file
 
 Obviously first run your Atomic test procedures to generate multiple JSON files that require merging, then:
 
 1. Place your ATTiRe formatted JSON files in the `./input/` folder.
 2. Modify `attire-merger.py` with your execution data to your only liking. This execution data will be used for all tested procedures
-3. Run `./attire-merger.py`
+3. Run `./attire-merger.py -json`
+4. Take the output from `./output/output.json` and upload it to VECTR via the UI.
+
+## Usage to convert CSV to JSON
+
+Obviously first run your Atomic test procedures to generate a CSV file that requires converting, then:
+
+1. Place your ATTiRe formatted JSON files in the `./input/` folder.
+2. Modify `attire-merger.py` with your execution data to your only liking. This execution data will be used for all tested procedures
+3. Run `./attire-merger.py -csv`
 4. Take the output from `./output/output.json` and upload it to VECTR via the UI.
 
 ## Credits
